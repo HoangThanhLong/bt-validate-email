@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi</title>
+</head>
+<body>
+<script>
+    function Email() {
+        regexp = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+        if (regexp.test(email)){
+            return true;
+        }
+        return false;
+    }
+    let email = prompt("Nhập email tại đây: ");
+    alert(Email(email));
+</script>
+</body>
+</html>
